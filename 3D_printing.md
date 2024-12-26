@@ -11,13 +11,14 @@
 
 ## 3D printing with Trinus
 
-- Save the mesh in the STL format (see [here](#generate-the-mesh)
+- Save the mesh in the STL format (see [here](#generate-the-mesh))
 - Import the STL file in Pango
 - Slice it using Pango
 - Save the gcode to the SDCARD
 - Install the SDCARD in the printer
 - Back in Pago
   - Set the bed temperature if needed (highmy recommanded). Use the Preferences/Settings menu, Advanced/Temperature item in the dialog box (see [picture](./imgs/trinus_bed_temp.jpg)). I have set it to 50°C and it works just fine.
+![](./imgs/trinus_bed_temp.jpg)
   - Open the console (menu view/console).
   - Select the gcode to print
 - That's it.

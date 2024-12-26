@@ -13,3 +13,13 @@ I could have used option `--user 1000:1000` but, in that case, I can't use `sudo
 
 The appropriate solution would be to create a dockerfile setup correctly...
 
+# Docker for `react
+
+
+```
+docker run -it --privileged  -v Work:/home/ubuntu/work --env="DISPLAY=192.168.0.1:0.0" --env="QT_X11_NO_MITSHM=1" --env="XAUTHORITY=$XAUTH" --volume="$XAUTH:$XAUTH" --net=host node:latest /bin/bash
+```
+
+In order to be able to connect to the web server at http://localhost:5173, you have to set the "enable host networking" property in `docker-studio`, as shown below :
+
+![](./imgs/docker-studio-host.png)

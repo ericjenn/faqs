@@ -68,7 +68,22 @@ the LP must block.
 
 ## Real-time simulation
 
+# FMI/FMU
+- A FMU is a zip file containing a model description (`modelDescription.xml`) and a source or binary model representation.
 
-
-- data distribution management (Morse and Zyda 2001).
+- **Model exchange** (ME): the importing tool provides the solver
+  - Main idea: the ME interface exposes the right hand side (RHS) of a hybrid ODE to the external solver.
+- **Co-Simulation** (CS): the exporting tool provides the solver. Cosimulation is the "coupling of several simulation programs in order to compute the global behavior of a system that consists of several subsystems".
+  - Communication timestep can be different from internal steps (e.g. Variable step solver)
+  - Calling sequence CS
+    - Set inputs: fmi2SetXXX(...)
+    - Trigger calculation until next communication point: fmi2doStep(...)
+    - Get outputs: fmi2GetXXX(...)
+  - The co-simulation algorithm is not part of the FMI standard. It is responsible for:
+    - advancing the overall simulation time,
+    - exchange input and output data,
+  - triggering of input clocks, and handling events.
+  - Internally the FMU can have different timesteps (e.g. a variable step solver)
+- **Scheduled Execution** (SE) in FMI 3.0
+- The FMI standard only defines the interface of a single FMU, not the simulation algorithm or solver for mumtiple FMUs.
   

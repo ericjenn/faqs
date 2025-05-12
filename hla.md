@@ -559,6 +559,23 @@ See [awa-13a], [awa-13b]
 
 [cru-22] Edwin Z. Crues, Dan Dexter, Alberto Falcone, Alfredo Garro & Björn Möller (2022) SpaceFOM - A robust standard for enabling a-priori interoperability of HLA-based space systems simulations, Journal of Simulation, 16:6, 624-644, DOI: 10.1080/17477778.2021.1945962
 
+[wea-96] R. M. Weatherly, A. L. Wilson, B. S. Canova, E. H. Page, A. A. Zabek, and M. C. Fischer, ‘Advanced distributed simulation through the Aggregate Level Simulation Protocol’, in Proceedings of HICSS-29: 29th Hawaii International Conference on System Sciences, Wailea, HI, USA: IEEE, 1996, pp. 407–415 vol.1. doi: 10.1109/HICSS.1996.495488.
+
+[ade-xx] M. Adelantado, J.-B. Chaudron, and A. Oyzel, ‘Using the HLA, Physical Modeling and Google Earth for Simulating Air Transport Systems Environmental Impact’.
+
+[mcc-24] [1] T. McClain, J. Prince, and S. Samani, ‘High Level Architecture (HLA) as a Research Tool for Advanced Air Mobility (AAM)’, NASA Langley, NASA/TM-20240009249, Aug. 2024.
+
+
+[alv-08] J. R. Alvarado, R. V. Osuna, and R. Tuokko, ‘Distributed Simulation in Manufacturing Using High Level Architecture’, in Micro-Assembly Technologies and Applications, vol. 260, S. Ratchev and S. Koelemeijer, Eds., in IFIP — International Federation for Information Processing, vol. 260. , Boston, MA: Springer US, 2008, pp. 121–126. doi: 10.1007/978-0-387-77405-3_11.
+
+[mor-23] F. Morlang and S. Strassburger, ‘On the Role of HLA-Based Simulation in New Space’, in Proceedings of the Winter Simulation Conference, in WSC ’22. Singapore, Singapore: IEEE Press, 2023, pp. 430–440.
+
+[mol-22] B. Möller, T. Gray, S. Kay, A. Kisdi, K. Buckley, and J. Delfa, ‘Experiences from the SISO SpaceFOM at the European Space Agency’, Pitch Technologues AB, 2021. [Online]. Available: https://pitchtechnologies.com/wp-content/uploads/2021/02/2021-SIW-18-Experiences-from-The-SISO-SpaceFOM-at-ESA.pdf
+
+[jef-85] D. R. Jefferson, ‘Virtual time’, ACM Trans. Program. Lang. Syst., vol. 7, no. 3, pp. 404–425, Jul. 1985, doi: 10.1145/3916.3988.
+
+fuj-00] R. M. Fujimoto, Parallel and distributed simulation systems. in Wiley Series on Parallel and Distributed Compuing. John Wiley and Sons Inc., 2000.
+
 
 ---
 ### LCIM and HLA
